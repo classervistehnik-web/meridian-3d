@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.2.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    model-viewer {
+      width: 100vw;
+      height: 100vh;
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body>
+
+  <model-viewer
+    src="Meshy_AI_Industrial_Hopper_and_0731151633_texture-v2.glb"
+    camera-controls
+    auto-rotate
+    rotation-per-second="12deg"
+    shadow-intensity="1"
+    shadow-softness="1"
+    exposure="1"
+    interaction-prompt="auto"
+    touch-action="pan-y">
+  </model-viewer>
+
+</body>
+</html>
